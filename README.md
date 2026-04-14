@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=800&color=6EE7B7&center=true&vCenter=true&width=720&lines=paper2code;Reading+papers+%3E+running+pip+install;AI+papers%2C+rebuilt+from+first+principles" alt="paper2code" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=800&color=6EE7B7&center=true&vCenter=true&width=720&lines=paper2code;Reading+papers+%3E+running+pip+install;papers%2C+rebuilt+from+first+principles" alt="paper2code" />
 
 <br/>
 
