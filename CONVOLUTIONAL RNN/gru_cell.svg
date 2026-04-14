@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="22cm" height="11cm" viewBox="540 560 432 219" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Bakgrunn">
+    <rect style="fill: #b9ffa8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #22aa39" x="600" y="600" width="300" height="144.963" rx="20" ry="20"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="590" y1="620" x2="935.528" y2="620"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="585,615 590,620 585,625 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="927.764,625 937.764,620 927.764,615 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="540" y="624">
+      <tspan x="540" y="624">h[t-1]</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="948" y="624">
+      <tspan x="948" y="624">h[t]</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="900" y1="620" x2="912.929" y2="620"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 912.929,620 A 7.07107,7.07107 0 0 0 920,612.929"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="920" y1="612.929" x2="920" y2="584.472"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="925,592.236 920,582.236 915,592.236 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="796" y1="688" x2="796" y2="672.485"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 796,672.485 A 8.48528,8.48528 0 0 1 804.485,664"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="804.485" y1="664" x2="843.528" y2="664"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="835.764,669 845.764,664 835.764,659 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="704" y1="728" x2="846" y2="728"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 846,728 A 10,10 0 0 0 856,718"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="856" y1="718" x2="856" y2="632.472"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="861,640.236 856,630.236 851,640.236 "/>
+    </g>
+    <g>
+      <ellipse style="fill: #ffe19e; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #caa556" cx="855.386" cy="662.334" rx="10" ry="10"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="850.262" y="666.584">
+        <tspan x="850.262" y="666.584">×</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="708" y1="716" x2="786" y2="716"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 786,716 A 10,10 0 0 0 796,706"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="796" y1="706" x2="796" y2="632.472"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="801,640.236 796,630.236 791,640.236 "/>
+    </g>
+    <g>
+      <ellipse style="fill: #ffe19e; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #caa556" cx="795.666" cy="619.334" rx="10" ry="10"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="790.542" y="623.584">
+        <tspan x="790.542" y="623.584">×</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="716" y1="716" x2="728.929" y2="716"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 728.929,716 A 7.07107,7.07107 0 0 0 736,708.929"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="736" y1="708.929" x2="736" y2="674"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 736,674 A 10,10 0 0 0 726,664"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="726" y1="664" x2="704.472" y2="664"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="712.236,659 702.236,664 712.236,669 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="672" y1="620" x2="684.929" y2="620"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 684.929,620 A 7.07107,7.07107 0 0 1 692,627.071"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="692" y1="627.071" x2="692" y2="718"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 692,718 A 10,10 0 0 0 702,728"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="702" y1="728" x2="800" y2="728"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="636" y1="620" x2="648.929" y2="620"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 648.929,620 A 7.07107,7.07107 0 0 1 656,627.071"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="656" y1="627.071" x2="656" y2="706"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 656,706 A 10,10 0 0 0 666,716"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="666" y1="716" x2="764" y2="716"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="656" y1="754" x2="656" y2="723.071"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 656,723.071 A 7.07107,7.07107 0 0 1 663.071,716"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="663.071" y1="716" x2="676" y2="716"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="651,759 656,754 661,759 "/>
+    </g>
+    <g>
+      <ellipse style="fill: #ffe19e; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #caa556" cx="692" cy="663.666" rx="10" ry="10"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="686.874" y="667.916">
+        <tspan x="686.874" y="667.916">×</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="656" y1="748" x2="656" y2="735.071"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" d="M 656,735.071 A 7.07107,7.07107 0 0 1 663.071,728"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="663.071" y1="728" x2="700" y2="728"/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="644" y="776">
+      <tspan x="644" y="776">x[t]</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="908" y="572">
+      <tspan x="908" y="572">ŷ[t]</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="872" y="676">
+      <tspan x="872" y="676">ĥ[t]</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="768" y="676">
+      <tspan x="768" y="676">z[t]</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="728" y="656">
+      <tspan x="728" y="656">r[t]</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x1="826" y1="692" x2="844" y2="692"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 821,697 A 5,5 0 1 0 821,687"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="706" y1="692" x2="724" y2="692"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 701,697 A 5,5 0 1 0 701,687"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="766" y1="692" x2="784" y2="692"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 761,697 A 5,5 0 1 0 761,687"/>
+    </g>
+    <g>
+      <rect style="fill: #a4bdf1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #6582bf" x="716" y="684" width="40" height="16" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="732" y="696">
+        <tspan x="732" y="696">σ</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #a4bdf1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #6582bf" x="776" y="684" width="40" height="16" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="792" y="696">
+        <tspan x="792" y="696">σ</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #a4bdf1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #6582bf" x="836" y="684" width="40" height="16" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="841.666" y="695.666">
+        <tspan x="841.666" y="695.666">tanh</tspan>
+      </text>
+    </g>
+    <g transform="matrix(1,0,0,0.908549,0,60.1279)">
+      <ellipse style="fill: #ffe19e; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #caa556" cx="795.967" cy="651.549" rx="17" ry="10"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="789.967" y="655.799">
+        <tspan x="789.967" y="655.799">1-</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #ffe19e; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #caa556" cx="855.666" cy="619.666" rx="10" ry="10"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="850.542" y="623.916">
+        <tspan x="850.542" y="623.916">+</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

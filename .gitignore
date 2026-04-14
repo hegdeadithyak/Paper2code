@@ -1,2 +1,32 @@
-VisionTransformer/__pycache__/
-VisionTransformer/going_modular/going_modular/__pycache__/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+.claude
