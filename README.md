@@ -43,14 +43,14 @@ The goal isn't benchmark-chasing. It's **understanding** — by the time you've 
 
 | Paper | From scratch | With library | Tests | Folder |
 |------|:---:|:---:|:---:|---|
-| Attention Is All You Need (Vaswani 2017) | 🟢 | 🟢 | 10 | [`ATTENTION IS ALL YOU NEED/`](./ATTENTION%20IS%20ALL%20YOU%20NEED) |
-| An Image is Worth 16x16 Words — ViT (Dosovitskiy 2020) | 🟢 | 🟢 | 7 | [`VisionTransformer/`](./VisionTransformer) |
-| Adam: A Method for Stochastic Optimization (Kingma 2014) | 🟢 | 🟢 | 6 | [`ADAM-OPTIMIZER/`](./ADAM-OPTIMIZER) |
-| Long Short-Term Memory (Hochreiter 1997) | 🟢 | 🟢 | 12 | [`LSTM/`](./LSTM) |
-| RNN Encoder–Decoder / GRU (Cho 2014) | 🟢 | 🟢 | 8 | [`CONVOLUTIONAL RNN/`](./CONVOLUTIONAL%20RNN) |
-| Faster R-CNN (Ren 2015) — key atoms | 🟡 | 🟢 | 14 | [`FASTER-RCNN/`](./FASTER-RCNN) |
-| SSD: Single Shot MultiBox Detector (Liu 2016) — key atoms | 🟡 | 🟢 | 11 | [`SSD-RESNET/`](./SSD-RESNET) |
-| Bits & pieces from scratch | 🟢 | — | — | [`THINGS_FROM_SCRATCH/`](./THINGS_FROM_SCRATCH) |
+| Attention Is All You Need (Vaswani 2017) | 🟢 | 🟢 | 10 | [`attention/`](./attention) |
+| An Image is Worth 16x16 Words — ViT (Dosovitskiy 2020) | 🟢 | 🟢 | 7 | [`vit/`](./vit) |
+| Adam: A Method for Stochastic Optimization (Kingma 2014) | 🟢 | 🟢 | 6 | [`adam/`](./adam) |
+| Long Short-Term Memory (Hochreiter 1997) | 🟢 | 🟢 | 12 | [`lstm/`](./lstm) |
+| RNN Encoder–Decoder / GRU (Cho 2014) | 🟢 | 🟢 | 8 | [`gru/`](./gru) |
+| Faster R-CNN (Ren 2015) — key atoms | 🟡 | 🟢 | 14 | [`faster-rcnn/`](./faster-rcnn) |
+| SSD: Single Shot MultiBox Detector (Liu 2016) — key atoms | 🟡 | 🟢 | 11 | [`ssd/`](./ssd) |
+| Bits & pieces from scratch | 🟢 | — | — | [`things-from-scratch/`](./things-from-scratch) |
 
 <sub>🟢 done · 🟡 partial (detection papers — RPN/default-boxes/NMS/HNM from scratch; full pipeline via torchvision) · 🔴 todo</sub>
 
