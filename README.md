@@ -41,18 +41,20 @@ The goal isn't benchmark-chasing. It's **understanding** — by the time you've 
 
 ## 📚 Paper hitlist
 
-| Paper | From scratch | With library | Folder |
-|------|:---:|:---:|---|
-| Attention Is All You Need | 🟢 | 🟢 | [`ATTENTION IS ALL YOU NEED/`](./ATTENTION%20IS%20ALL%20YOU%20NEED) |
-| An Image is Worth 16x16 Words (ViT) | 🟡 | 🟢 | [`VisionTransformer/`](./VisionTransformer) |
-| ADAM: A Method for Stochastic Optimization | 🟢 | 🟢 | [`ADAM-OPTIMIZER/`](./ADAM-OPTIMIZER) |
-| Long Short-Term Memory | 🟢 | 🟡 | [`LSTM/`](./LSTM) |
-| RNN Encoder–Decoder for SMT | 🟡 | 🟡 | [`CONVOLUTIONAL RNN/`](./CONVOLUTIONAL%20RNN) |
-| Faster R-CNN | 🔴 | 🟡 | [`FASTER-RCNN/`](./FASTER-RCNN) |
-| SSD-ResNet Object Detection | 🔴 | 🟡 | [`SSD-RESNET/`](./SSD-RESNET) |
-| Bits & pieces from scratch | 🟢 | — | [`THINGS_FROM_SCRATCH/`](./THINGS_FROM_SCRATCH) |
+| Paper | From scratch | With library | Tests | Folder |
+|------|:---:|:---:|:---:|---|
+| Attention Is All You Need (Vaswani 2017) | 🟢 | 🟢 | 10 | [`ATTENTION IS ALL YOU NEED/`](./ATTENTION%20IS%20ALL%20YOU%20NEED) |
+| An Image is Worth 16x16 Words — ViT (Dosovitskiy 2020) | 🟢 | 🟢 | 7 | [`VisionTransformer/`](./VisionTransformer) |
+| Adam: A Method for Stochastic Optimization (Kingma 2014) | 🟢 | 🟢 | 6 | [`ADAM-OPTIMIZER/`](./ADAM-OPTIMIZER) |
+| Long Short-Term Memory (Hochreiter 1997) | 🟢 | 🟢 | 12 | [`LSTM/`](./LSTM) |
+| RNN Encoder–Decoder / GRU (Cho 2014) | 🟢 | 🟢 | 8 | [`CONVOLUTIONAL RNN/`](./CONVOLUTIONAL%20RNN) |
+| Faster R-CNN (Ren 2015) — key atoms | 🟡 | 🟢 | 14 | [`FASTER-RCNN/`](./FASTER-RCNN) |
+| SSD: Single Shot MultiBox Detector (Liu 2016) — key atoms | 🟡 | 🟢 | 11 | [`SSD-RESNET/`](./SSD-RESNET) |
+| Bits & pieces from scratch | 🟢 | — | — | [`THINGS_FROM_SCRATCH/`](./THINGS_FROM_SCRATCH) |
 
-<sub>🟢 done · 🟡 in progress · 🔴 todo</sub>
+<sub>🟢 done · 🟡 partial (detection papers — RPN/default-boxes/NMS/HNM from scratch; full pipeline via torchvision) · 🔴 todo</sub>
+
+<sub>**Total: 68 tests, ~1.5s to run the whole repo suite.**</sub>
 
 ## 🚀 Get started
 
@@ -60,17 +62,36 @@ The goal isn't benchmark-chasing. It's **understanding** — by the time you've 
 git clone https://github.com/hegdeadithyak/PaperReplica.git
 cd PaperReplica
 pip install -r requirements.txt
+
+# run every test across every paper
+python3 -m pytest -v
 ```
 
-Then `cd` into any paper folder and read its README — each one is self-contained.
+Each paper folder is self-contained: `{name}_scratch.py` + `{name}_library.py` + `test_{name}.py` + a README with the math, a diagram, and first-principles explanation. `cd` in and read the README.
+
+## 🧱 The pattern
+
+Every paper lives in a folder with the same four files:
+
+```
+<paper-dir>/
+  <name>_scratch.py    # raw PyTorch tensor ops — no nn.Module, no autograd for RNNs
+  <name>_library.py    # torch.nn / torchvision / torch.optim equivalent
+  test_<name>.py       # shared-weight parity tests — scratch == library to ~1e-5
+  README.md            # math, first-principles walkthrough, diagram from Wikimedia
+```
+
+Scratch impls expose their weights in the **same layout** as the library module, so tests can copy weights across with `load_from_torch_*()` and verify bit-identical outputs. No hand-waving, no "similar behavior" — numerical equivalence or the test fails.
 
 ## 📖 References
 
-- Vaswani et al. — [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
+- Vaswani et al. — [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - Dosovitskiy et al. — [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929)
-- Kingma & Ba — [ADAM: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
-- Cho et al. — [RNN Encoder–Decoder for SMT](https://arxiv.org/pdf/1406.1078)
-- [Object detection based on SSD-ResNet](https://ieeexplore.ieee.org/document/9073753)
+- Kingma & Ba — [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
+- Hochreiter & Schmidhuber — [Long Short-Term Memory](https://www.bioinf.jku.at/publications/older/2604.pdf)
+- Cho et al. — [Learning Phrase Representations using RNN Encoder-Decoder](https://arxiv.org/abs/1406.1078)
+- Ren et al. — [Faster R-CNN](https://arxiv.org/abs/1506.01497)
+- Liu et al. — [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325)
 
 ## 🪪 License
 

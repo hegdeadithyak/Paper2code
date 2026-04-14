@@ -30,3 +30,4 @@ env/
 build/
 dist/
 .claude
+CLAUDE.md
